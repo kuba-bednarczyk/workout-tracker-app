@@ -32,7 +32,8 @@ class ExerciseSeeder extends Seeder
                     'name' => $exerciseName,
                     'muscle_group_id' => $muscleGroup->id
                 ], [
-                    'user_id' => null
+                    'user_id' => null,
+                    'description' => null,
                 ]);
             }
         }

@@ -8,8 +8,8 @@ use Illuminate\Database\Eloquent\SoftDeletes;
 
 class Exercise extends Model
 {
-    use hasFactory, SoftDeletes;
-    protected $fillable = ['name', 'muscle_group_id', 'description', 'user_id'];
+    use HasFactory, SoftDeletes;
+    protected $fillable = ['name', 'user_id', 'muscle_group_id', 'description'];
 
     public function muscleGroup() {
         return $this->belongsTo(MuscleGroup::class);
@@ -17,5 +17,9 @@ class Exercise extends Model
 
     public function workoutSets() {
         return $this->hasMany(WorkoutSet::class);
+    }
+
+    public function user() {
+        return $this->belongsTo(User::class);
     }
 }

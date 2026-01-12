@@ -13,8 +13,9 @@ return new class extends Migration
     {
         Schema::create('workout_sets', function (Blueprint $table) {
             $table->id();
-            $table->foreignId('workout_id')->constrained();
-            $table->foreignId('exercise_id')->constrained();
+            $table->foreignId('workout_id')->constrained()->onDelete('cascade');
+            // czy tutaj trzeba onDelete('cascade') ?
+            $table->foreignId('exercise_id')->constrained()->onDelete('cascade');
             $table->integer('reps');
             $table->decimal('weight', 5, 2);
             $table->timestamps();
