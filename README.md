@@ -34,6 +34,7 @@ Wersje programów wykorzystane do tworzenia aplikacji:
    Wypakuj archiwum z projektem do dowolnego folderu lub sklonuj repozytorium za pomocą komendy:
     ```bash
     git clone https://github.com/kuba-bednarczyk/workout_tracker_app/
+   cd workout_tracker_app
    ```
 
 2. **Instalacja zależności:**
@@ -49,6 +50,10 @@ Wersje programów wykorzystane do tworzenia aplikacji:
     ```
    _(W systemie Windows można ręcznie skopiować w eksploratorze i zmienić nazwę na .env)_
 
+    Następnie wygeneruj klucz szyfrowania aplikacji:
+    ```bash
+   php artisan key:generate
+    ```
 
 4. **Baza danych:**
    Aplikacja skonfigurowana jest pod SQLite, więc nie wymaga zewnętrznego serwera MySQL. Stwórz plik bazy danych o nazwie database.sqlite w folderze /database (jeśli nie istnieje).
