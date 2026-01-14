@@ -9,7 +9,7 @@ Jakub Bednarczyk
 ## Funkcjonalności
 - **Uwierzytelnianie:** Logowanie, rejestracja, reset hasła.
 - **Treningi:** Tworzenie sesji treningowych, dodawanie serii (ciężar/powtórzenia).
-- **System Szablonów:** Możliwość stworzenia planu (np. FBW A) i szybkiego rozpoczęcia treningu na jego podstawie (kopiowanie serii).
+- **System Szablonów:** Możliwość stworzenia planu treningowego i szybkiego rozpoczęcia treningu na jego podstawie (kopiowanie serii).
 - **Baza Ćwiczeń:** Hybrydowy system ćwiczeń – ćwiczenia systemowe (dla wszystkich) oraz prywatne ćwiczenia użytkownika.
 - **Dashboard:** Statystyki tygodniowe, miesięczne oraz lista ostatnich aktywności.
 - **Historia:** Przeglądanie i filtrowanie odbytych treningów.
