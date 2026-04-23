@@ -1,6 +1,4 @@
-# Projekt zaliczeniowy z laboratorium "Programowanie aplikacji internetowych"
-
-## Tematyka projektu: Workout Tracker (Planer treningów na siłownię)
+## Workout Tracker (Planer treningów na siłownię)
 Aplikacja internetowa do śledzenia postępów na siłowni. Umożliwia rejestrowanie treningów, zarządzanie planami treningowymi oraz analizę postępów.
 
 ## Autor
